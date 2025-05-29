@@ -28,7 +28,8 @@ function getRestaurantOrders (restaurantId) {
 }
 
 function getRestaurantAnalytics (restaurantId) {
-
+  // SOLUTION. Excercise - Restaurant analytics
+  return get(`/restaurants/${restaurantId}/analytics`)
 }
 
 export { getRestaurantOrders, getRestaurantAnalytics, getAll, getDetail, getRestaurantCategories, create, update, remove }
